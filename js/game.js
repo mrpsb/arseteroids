@@ -10,7 +10,6 @@ game.state.add('preload', preloadState);
 game.state.add('menu', menuState);
 game.state.add('play', playState);
 game.state.add('gameover', gameoverState);
-game.state.add('boot', bootState);
 
 //Start boot state
 game.state.start('boot');

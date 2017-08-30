@@ -19,5 +19,15 @@
         "no-unused-vars": "warn",
         "constructor-super": "warn",
         "valid-typeof": "warn"
+    },
+    "globals": {
+        "game": false,
+        "Phaser": true,
+        "bootState": false,
+        "menuState": false,
+        "preloadState": false,
+        "playState": false,
+        "gameoverState": false
+        
     }
 }
