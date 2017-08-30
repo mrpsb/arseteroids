@@ -10,7 +10,7 @@ const menuState = {
       const wkey = game.input.keyboard.addKey(Phaser.Keyboard.W);
 
       wkey.onDown.addOnce(this.start, this);
-  }
+  },
 
   start: function () {
       game.state.start('play');
